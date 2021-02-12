@@ -46,14 +46,20 @@ numOfQuizQuestions = 0
   }
 
 console.log(
-`\nAnswer 1: ${candidateAnswers[0]}
+`
+Question: ${questions[0]}
+Answer 1: ${candidateAnswers[0]}
 Correct Answer: ${correctAnswers[0]}\n
+Question: ${questions[1]}
 Answer 2: ${candidateAnswers[1]}
 Correct Answer: ${correctAnswers[1]}\n
+Question: ${questions[2]}
 Answer 3: ${candidateAnswers[2]}
 Correct Answer: ${correctAnswers[2]}\n
+Question: ${questions[3]}
 Answer 4: ${candidateAnswers[3]}
 Correct Answer: ${correctAnswers[3]}\n
+Question: ${questions[4]}
 Answer 5: ${candidateAnswers[4]}
 Correct Answer: ${correctAnswers[4]}\n`);
 
